@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "1486147202-social-media-circled-network10_79475.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "1486147202-social-media-circled-network10_79475-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "1486147202-social-media-circled-network10_79475-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

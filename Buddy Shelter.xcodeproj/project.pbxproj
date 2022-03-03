@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F428552927C1C62D00EAAB84 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F428552827C1C62D00EAAB84 /* FeedView.swift */; };
+		F428552B27C1C63A00EAAB84 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F428552A27C1C63A00EAAB84 /* FavouriteView.swift */; };
+		F428552D27C1C64600EAAB84 /* PartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F428552C27C1C64600EAAB84 /* PartnersView.swift */; };
+		F428552F27C1C64F00EAAB84 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F428552E27C1C64F00EAAB84 /* ProfileView.swift */; };
+		F450CC3227BE9FB400801976 /* Vandmelon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F450CC3127BE9FB400801976 /* Vandmelon.ttf */; };
+		F450CC3527BEA0A700801976 /* Montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F450CC3427BEA0A700801976 /* Montserrat.ttf */; };
+		F450CC3827BEA4D700801976 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450CC3727BEA4D700801976 /* AuthView.swift */; };
+		F49B936527BE5EED00F5A4C5 /* Buddy_ShelterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B936427BE5EED00F5A4C5 /* Buddy_ShelterApp.swift */; };
+		F49B936727BE5EED00F5A4C5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B936627BE5EED00F5A4C5 /* LoadingView.swift */; };
+		F49B936927BE5EEE00F5A4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49B936827BE5EEE00F5A4C5 /* Assets.xcassets */; };
+		F49B936C27BE5EEE00F5A4C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49B936B27BE5EEE00F5A4C5 /* Preview Assets.xcassets */; };
+		F49B937627BE5EEE00F5A4C5 /* Buddy_ShelterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B937527BE5EEE00F5A4C5 /* Buddy_ShelterTests.swift */; };
+		F49B938027BE5EEE00F5A4C5 /* Buddy_ShelterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B937F27BE5EEE00F5A4C5 /* Buddy_ShelterUITests.swift */; };
+		F49B938227BE5EEE00F5A4C5 /* Buddy_ShelterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B938127BE5EEE00F5A4C5 /* Buddy_ShelterUITestsLaunchTests.swift */; };
+		F49F2BD427C1B7FB003C3483 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F2BD327C1B7FB003C3483 /* MainView.swift */; };
+		F4AFB86A27C6DA4600BF928A /* PartnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFB86927C6DA4600BF928A /* PartnerModel.swift */; };
+		F4AFB86C27C6DA5400BF928A /* PartnerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFB86B27C6DA5400BF928A /* PartnerData.swift */; };
+		F4D9486327CAFD70009A39CD /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9486227CAFD70009A39CD /* PetModel.swift */; };
+		F4D9486527CAFD7F009A39CD /* PetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9486427CAFD7F009A39CD /* PetData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F49B937227BE5EEE00F5A4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49B935927BE5EED00F5A4C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49B936027BE5EED00F5A4C5;
+			remoteInfo = "Buddy Shelter";
+		};
+		F49B937C27BE5EEE00F5A4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49B935927BE5EED00F5A4C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49B936027BE5EED00F5A4C5;
+			remoteInfo = "Buddy Shelter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F428552827C1C62D00EAAB84 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		F428552A27C1C63A00EAAB84 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		F428552C27C1C64600EAAB84 /* PartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersView.swift; sourceTree = "<group>"; };
+		F428552E27C1C64F00EAAB84 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F450CC3127BE9FB400801976 /* Vandmelon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Vandmelon.ttf; path = ../../../../Documents/Vandmelon.ttf; sourceTree = "<group>"; };
+		F450CC3327BEA06300801976 /* Buddy-Shelter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Buddy-Shelter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F450CC3427BEA0A700801976 /* Montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Montserrat.ttf; sourceTree = "<group>"; };
+		F450CC3727BEA4D700801976 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F49B936127BE5EED00F5A4C5 /* Buddy Shelter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buddy Shelter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49B936427BE5EED00F5A4C5 /* Buddy_ShelterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddy_ShelterApp.swift; sourceTree = "<group>"; };
+		F49B936627BE5EED00F5A4C5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F49B936827BE5EEE00F5A4C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49B936B27BE5EEE00F5A4C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F49B937127BE5EEE00F5A4C5 /* Buddy ShelterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buddy ShelterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49B937527BE5EEE00F5A4C5 /* Buddy_ShelterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddy_ShelterTests.swift; sourceTree = "<group>"; };
+		F49B937B27BE5EEE00F5A4C5 /* Buddy ShelterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buddy ShelterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49B937F27BE5EEE00F5A4C5 /* Buddy_ShelterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddy_ShelterUITests.swift; sourceTree = "<group>"; };
+		F49B938127BE5EEE00F5A4C5 /* Buddy_ShelterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddy_ShelterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F49F2BD327C1B7FB003C3483 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F4AFB86927C6DA4600BF928A /* PartnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerModel.swift; sourceTree = "<group>"; };
+		F4AFB86B27C6DA5400BF928A /* PartnerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerData.swift; sourceTree = "<group>"; };
+		F4D9486227CAFD70009A39CD /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		F4D9486427CAFD7F009A39CD /* PetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49B935E27BE5EED00F5A4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49B936E27BE5EEE00F5A4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49B937827BE5EEE00F5A4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F428552727C1C61600EAAB84 /* MainControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F49F2BD327C1B7FB003C3483 /* MainView.swift */,
+				F428552827C1C62D00EAAB84 /* FeedView.swift */,
+				F428552A27C1C63A00EAAB84 /* FavouriteView.swift */,
+				F428552C27C1C64600EAAB84 /* PartnersView.swift */,
+				F428552E27C1C64F00EAAB84 /* ProfileView.swift */,
+			);
+			path = MainControllers;
+			sourceTree = "<group>";
+		};
+		F450CC3027BE9FA100801976 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F450CC3427BEA0A700801976 /* Montserrat.ttf */,
+				F450CC3127BE9FB400801976 /* Vandmelon.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F450CC3627BEA4B300801976 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F49B936627BE5EED00F5A4C5 /* LoadingView.swift */,
+				F450CC3727BEA4D700801976 /* AuthView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F49B935827BE5EED00F5A4C5 = {
+			isa = PBXGroup;
+			children = (
+				F49B936327BE5EED00F5A4C5 /* Buddy Shelter */,
+				F49B937427BE5EEE00F5A4C5 /* Buddy ShelterTests */,
+				F49B937E27BE5EEE00F5A4C5 /* Buddy ShelterUITests */,
+				F49B936227BE5EED00F5A4C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49B936227BE5EED00F5A4C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49B936127BE5EED00F5A4C5 /* Buddy Shelter.app */,
+				F49B937127BE5EEE00F5A4C5 /* Buddy ShelterTests.xctest */,
+				F49B937B27BE5EEE00F5A4C5 /* Buddy ShelterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49B936327BE5EED00F5A4C5 /* Buddy Shelter */ = {
+			isa = PBXGroup;
+			children = (
+				F4D9486127CAFD61009A39CD /* Pets */,
+				F4AFB86827C6DA3000BF928A /* Partners */,
+				F428552727C1C61600EAAB84 /* MainControllers */,
+				F450CC3627BEA4B300801976 /* ViewControllers */,
+				F450CC3327BEA06300801976 /* Buddy-Shelter-Info.plist */,
+				F450CC3027BE9FA100801976 /* Fonts */,
+				F49B936427BE5EED00F5A4C5 /* Buddy_ShelterApp.swift */,
+				F49B936827BE5EEE00F5A4C5 /* Assets.xcassets */,
+				F49B936A27BE5EEE00F5A4C5 /* Preview Content */,
+			);
+			path = "Buddy Shelter";
+			sourceTree = "<group>";
+		};
+		F49B936A27BE5EEE00F5A4C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F49B936B27BE5EEE00F5A4C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F49B937427BE5EEE00F5A4C5 /* Buddy ShelterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F49B937527BE5EEE00F5A4C5 /* Buddy_ShelterTests.swift */,
+			);
+			path = "Buddy ShelterTests";
+			sourceTree = "<group>";
+		};
+		F49B937E27BE5EEE00F5A4C5 /* Buddy ShelterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F49B937F27BE5EEE00F5A4C5 /* Buddy_ShelterUITests.swift */,
+				F49B938127BE5EEE00F5A4C5 /* Buddy_ShelterUITestsLaunchTests.swift */,
+			);
+			path = "Buddy ShelterUITests";
+			sourceTree = "<group>";
+		};
+		F4AFB86827C6DA3000BF928A /* Partners */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFB86927C6DA4600BF928A /* PartnerModel.swift */,
+				F4AFB86B27C6DA5400BF928A /* PartnerData.swift */,
+			);
+			path = Partners;
+			sourceTree = "<group>";
+		};
+		F4D9486127CAFD61009A39CD /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				F4D9486227CAFD70009A39CD /* PetModel.swift */,
+				F4D9486427CAFD7F009A39CD /* PetData.swift */,
+			);
+			path = Pets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49B936027BE5EED00F5A4C5 /* Buddy Shelter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49B938527BE5EEE00F5A4C5 /* Build configuration list for PBXNativeTarget "Buddy Shelter" */;
+			buildPhases = (
+				F49B935D27BE5EED00F5A4C5 /* Sources */,
+				F49B935E27BE5EED00F5A4C5 /* Frameworks */,
+				F49B935F27BE5EED00F5A4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buddy Shelter";
+			productName = "Buddy Shelter";
+			productReference = F49B936127BE5EED00F5A4C5 /* Buddy Shelter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F49B937027BE5EEE00F5A4C5 /* Buddy ShelterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49B938827BE5EEE00F5A4C5 /* Build configuration list for PBXNativeTarget "Buddy ShelterTests" */;
+			buildPhases = (
+				F49B936D27BE5EEE00F5A4C5 /* Sources */,
+				F49B936E27BE5EEE00F5A4C5 /* Frameworks */,
+				F49B936F27BE5EEE00F5A4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49B937327BE5EEE00F5A4C5 /* PBXTargetDependency */,
+			);
+			name = "Buddy ShelterTests";
+			productName = "Buddy ShelterTests";
+			productReference = F49B937127BE5EEE00F5A4C5 /* Buddy ShelterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F49B937A27BE5EEE00F5A4C5 /* Buddy ShelterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49B938B27BE5EEE00F5A4C5 /* Build configuration list for PBXNativeTarget "Buddy ShelterUITests" */;
+			buildPhases = (
+				F49B937727BE5EEE00F5A4C5 /* Sources */,
+				F49B937827BE5EEE00F5A4C5 /* Frameworks */,
+				F49B937927BE5EEE00F5A4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49B937D27BE5EEE00F5A4C5 /* PBXTargetDependency */,
+			);
+			name = "Buddy ShelterUITests";
+			productName = "Buddy ShelterUITests";
+			productReference = F49B937B27BE5EEE00F5A4C5 /* Buddy ShelterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49B935927BE5EED00F5A4C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F49B936027BE5EED00F5A4C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F49B937027BE5EEE00F5A4C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F49B936027BE5EED00F5A4C5;
+					};
+					F49B937A27BE5EEE00F5A4C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F49B936027BE5EED00F5A4C5;
+					};
+				};
+			};
+			buildConfigurationList = F49B935C27BE5EED00F5A4C5 /* Build configuration list for PBXProject "Buddy Shelter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49B935827BE5EED00F5A4C5;
+			productRefGroup = F49B936227BE5EED00F5A4C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49B936027BE5EED00F5A4C5 /* Buddy Shelter */,
+				F49B937027BE5EEE00F5A4C5 /* Buddy ShelterTests */,
+				F49B937A27BE5EEE00F5A4C5 /* Buddy ShelterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49B935F27BE5EED00F5A4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F450CC3527BEA0A700801976 /* Montserrat.ttf in Resources */,
+				F450CC3227BE9FB400801976 /* Vandmelon.ttf in Resources */,
+				F49B936C27BE5EEE00F5A4C5 /* Preview Assets.xcassets in Resources */,
+				F49B936927BE5EEE00F5A4C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49B936F27BE5EEE00F5A4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49B937927BE5EEE00F5A4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49B935D27BE5EED00F5A4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AFB86C27C6DA5400BF928A /* PartnerData.swift in Sources */,
+				F428552F27C1C64F00EAAB84 /* ProfileView.swift in Sources */,
+				F428552927C1C62D00EAAB84 /* FeedView.swift in Sources */,
+				F4D9486527CAFD7F009A39CD /* PetData.swift in Sources */,
+				F4D9486327CAFD70009A39CD /* PetModel.swift in Sources */,
+				F49B936727BE5EED00F5A4C5 /* LoadingView.swift in Sources */,
+				F49F2BD427C1B7FB003C3483 /* MainView.swift in Sources */,
+				F49B936527BE5EED00F5A4C5 /* Buddy_ShelterApp.swift in Sources */,
+				F428552D27C1C64600EAAB84 /* PartnersView.swift in Sources */,
+				F428552B27C1C63A00EAAB84 /* FavouriteView.swift in Sources */,
+				F4AFB86A27C6DA4600BF928A /* PartnerModel.swift in Sources */,
+				F450CC3827BEA4D700801976 /* AuthView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49B936D27BE5EEE00F5A4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49B937627BE5EEE00F5A4C5 /* Buddy_ShelterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49B937727BE5EEE00F5A4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49B938027BE5EEE00F5A4C5 /* Buddy_ShelterUITests.swift in Sources */,
+				F49B938227BE5EEE00F5A4C5 /* Buddy_ShelterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F49B937327BE5EEE00F5A4C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49B936027BE5EED00F5A4C5 /* Buddy Shelter */;
+			targetProxy = F49B937227BE5EEE00F5A4C5 /* PBXContainerItemProxy */;
+		};
+		F49B937D27BE5EEE00F5A4C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49B936027BE5EED00F5A4C5 /* Buddy Shelter */;
+			targetProxy = F49B937C27BE5EEE00F5A4C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F49B938327BE5EEE00F5A4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F49B938427BE5EEE00F5A4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49B938627BE5EEE00F5A4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buddy Shelter/Preview Content\"";
+				DEVELOPMENT_TEAM = RC5W9DZ8X2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Buddy-Shelter-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DmitryKuligin.Buddy-Shelter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F49B938727BE5EEE00F5A4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buddy Shelter/Preview Content\"";
+				DEVELOPMENT_TEAM = RC5W9DZ8X2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Buddy-Shelter-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DmitryKuligin.Buddy-Shelter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F49B938927BE5EEE00F5A4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RC5W9DZ8X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DmitryKuligin.Buddy-ShelterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buddy Shelter.app/Buddy Shelter";
+			};
+			name = Debug;
+		};
+		F49B938A27BE5EEE00F5A4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RC5W9DZ8X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DmitryKuligin.Buddy-ShelterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buddy Shelter.app/Buddy Shelter";
+			};
+			name = Release;
+		};
+		F49B938C27BE5EEE00F5A4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RC5W9DZ8X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DmitryKuligin.Buddy-ShelterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Buddy Shelter";
+			};
+			name = Debug;
+		};
+		F49B938D27BE5EEE00F5A4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RC5W9DZ8X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DmitryKuligin.Buddy-ShelterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Buddy Shelter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49B935C27BE5EED00F5A4C5 /* Build configuration list for PBXProject "Buddy Shelter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49B938327BE5EEE00F5A4C5 /* Debug */,
+				F49B938427BE5EEE00F5A4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49B938527BE5EEE00F5A4C5 /* Build configuration list for PBXNativeTarget "Buddy Shelter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49B938627BE5EEE00F5A4C5 /* Debug */,
+				F49B938727BE5EEE00F5A4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49B938827BE5EEE00F5A4C5 /* Build configuration list for PBXNativeTarget "Buddy ShelterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49B938927BE5EEE00F5A4C5 /* Debug */,
+				F49B938A27BE5EEE00F5A4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49B938B27BE5EEE00F5A4C5 /* Build configuration list for PBXNativeTarget "Buddy ShelterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49B938C27BE5EEE00F5A4C5 /* Debug */,
+				F49B938D27BE5EEE00F5A4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49B935927BE5EED00F5A4C5 /* Project object */;
+}
